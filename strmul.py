@@ -1,0 +1,1 @@
+lambda x,y:''.join(lambda k,l:map(lambda a,b:chr((ord(a)-32)*(ord(b)-32)%95+32),k[:len(l)],l[:len(k)])(x,y))
